@@ -22,6 +22,6 @@ int main() {
 	}
 
 	std::cout << quot << common << quot;
-
+	//Don't use printf();
 	return 0;
 }
