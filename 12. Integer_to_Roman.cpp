@@ -6,7 +6,7 @@ int main() {
 
 	std::vector<std::string> Roman_ones{ "","I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"};
 	std::vector<std::string> Roman_tens{ "", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC" };
-	std::vector<std::string> Roman_hundreds{"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "DM" };
+	std::vector<std::string> Roman_hundreds{"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM" };
 	std::vector<std::string> Roman_thousand{ "", "M", "MM", "MMM", "MMMM" };
 	int num = 123;
 	int count = 0;
@@ -43,3 +43,4 @@ int main() {
 
 	return 0;
 }
+//This Program can be made smaller just by using ones, tens, etc in multiple and sum of their preceding i.e 7 5*1+3= V+III 
